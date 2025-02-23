@@ -43,7 +43,7 @@
             bindings = <
 &trans  &trans          &trans            &trans        &trans            &trans    &kp HOME    &kp PAGE_DOWN  &kp PAGE_UP   &kp END      &trans      &trans
 &trans  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans    &kp LEFT    &kp DOWN       &kp UP_ARROW  &kp RIGHT    &trans      &trans
-&trans  &trans          &trans            &trans        &trans            &trans    &kp K_UNDO  &kp K_CUT      &kp K_COPY    &kp K_PASTE  &kp K_REDO  &trans
+&trans  &trans          &trans            &kp K_COPY    &kp K_PASTE       &trans    &kp K_UNDO  &kp K_CUT      &kp K_COPY    &kp K_PASTE  &kp K_REDO  &trans
                                           &trans        &trans            &trans    &trans      &trans         &trans
             >;
         };
